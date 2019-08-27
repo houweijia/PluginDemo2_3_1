@@ -102,6 +102,7 @@ public class PluginManager {
                 Log.d("<<<", "插件包 不存在...");
                 return;
             }
+
             String pluginPath = file.getAbsolutePath();
             //实例化 PackageParser对象
             Class mPackageParserClass = Class.forName("android.content.pm.PackageParser");
